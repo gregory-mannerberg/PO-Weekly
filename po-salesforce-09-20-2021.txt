@@ -1,0 +1,20 @@
+Salesforce - Declarative versus Programmatic Customizations
+--------------------------------------------------------------------------------
+Within Salesforce there are declarative and programmatic tools. When creating
+customizations, it is best practice to use a declaritive solution to a problem
+first. Only if a declarative solution is not possible, then a programmatic
+solution can be used. Declarative customizations are easier to create since they
+can be made using point and click features within Salesforce. They also have
+all security and access handled automatically. Programmatic solutions require
+programming knowledge and code to be written. Since Apex code runs in system
+context by default, additional work has to be done to enforce security and
+access. Though declarative solutions are easier to use, they are also limited in
+what can be accomplished with them. Programmatic solutions can be far more
+powerful in terms of what they can do. Declarative solutions are easier to
+maintain and upgrade compared to programmatic one. For example, programmatic
+customizations require testing coverage that declarative customizations do not.
+Certain tasks are far easier to accomplish with declarative tools such as
+creating a custom object. The point and click solution walks through each step
+and handles generating the metadata automatically behind the scenes. Trying to
+write out all of this metadata manually would take far longer and be prone to
+typing errors.
