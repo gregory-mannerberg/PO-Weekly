@@ -12,3 +12,10 @@ deploy features on the API. When a satisfactory version of the metadata is
 reached, it can deploy to an actual production org. The Metadata API provides 
 documentation on how to access the metadata for all the different kinds of 
 customizations that can be made within a Salesforce org.
+
+Salesforce Data Loss
+--------------------------------------------------------------------------------
+One way that can cause data loss in Salesforce is by changing the data type of a
+field. If the new field type cannot accept data of the previous type, data will 
+be lost. For example, changing a text field to a any numeric field such as 
+number or currency will cause a loss of data.
