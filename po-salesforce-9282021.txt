@@ -1,0 +1,5 @@
+One example of a Salesforce API is the Salesforce Metadata API. Usage of this API enables deploying and retrieving metadata to and from Salesforce orgs. Metadata 
+retrieved from a Salesforce org is stored as an XML file on the local file system. With this API metadata can now be changed in two different places, within an org 
+or within the XML file on a local system. Metadata retrieved from one org can also be deployed to a different org. This helps with the development process. First, 
+changes can be made in development or scratch org or on a local system. Then, they can be pushed to another scratch org for testing using the deploy features on the
+API. When a satisfactory version of the metadata is reached, it can deploy to an actual production org.
